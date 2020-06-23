@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit"
+    tools:context=".CursosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+
+    <TextView
+        android:id="@+id/textcursos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CURSOS"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarSize="2dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:columnCount="2"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/backgroud2">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="INGLÊS TÉCNICO"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ingles"
+                android:layout_marginTop="-32dp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="NÍVEL: Básico\n CARGA HORÁRIA: 50h"
+                android:textColor="#fff"/>
+
+        </GridLayout>
+
+            <GridLayout
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:columnCount="2"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:background="@drawable/backgroud2">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text=" "
+                    android:textColor="#fff"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="JAVA "
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_java"
+                    android:layout_marginTop="-32dp"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="NÍVEL: Básico\n CARGA HORÁRIA: 40h"
+                    android:textColor="#fff"/>
+
+            </GridLayout>
+        <GridLayout
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:columnCount="2"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/backgroud2">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="C#"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_c"
+                android:layout_marginTop="-32dp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="NÍVEL: Básico\n CARGA HORÁRIA: 30h"
+                android:textColor="#fff"/>
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:columnCount="2"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/backgroud2">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="SQL Server"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_sqlserver"
+                android:layout_marginTop="-32dp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="NÍVEL: Básico\n CARGA HORÁRIA: 20h"
+                android:textColor="#fff"/>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:columnCount="2"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/backgroud2">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="ORACLE DATABASE"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_oracle"
+                android:layout_marginTop="-32dp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="NÍVEL: Básico\n CARGA HORÁRIA: 20h"
+                android:textColor="#fff"/>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:columnCount="2"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/backgroud2">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="PYTHON"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_python"
+                android:layout_marginTop="-32dp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="NÍVEL: Básico\n CARGA HORÁRIA: 20h"
+                android:textColor="#fff"/>
+
+        </GridLayout>
+
+    <GridLayout
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:background="@drawable/backgroud2">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" "
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="REDES"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_redes"
+            android:layout_marginTop="-32dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="NÍVEL: Básico\n CARGA HORÁRIA: 20h"
+            android:textColor="#fff"/>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

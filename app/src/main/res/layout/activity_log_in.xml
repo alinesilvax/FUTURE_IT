@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7E0F9"
+    tools:context=".LogInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="694dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/future_it"
+            android:layout_marginTop="100dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:drawableLeft="@drawable/ic_person"
+            android:hint="  username"
+            android:textColor="#fff"
+            android:inputType="textEmailAddress"
+            android:padding="7dp"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit"
+            android:drawableLeft="@drawable/ic_key"
+            android:hint="  password"
+            android:textColor="#fff"
+            android:inputType="textPassword"
+            android:padding="7dp"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button"
+            android:text="login"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btNewAccount"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="#fff"
+            android:text="NEW ACCOUNT"
+            android:textColor="#5da9f4"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:text="NEW ACCOUNT"
+            android:textColor="#B0E4EA"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
